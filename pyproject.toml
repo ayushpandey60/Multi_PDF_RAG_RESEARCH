@@ -1,0 +1,20 @@
+[project]
+name = "multipdf-research-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "duckduckgo-search>=6.0.0",
+    "faiss-cpu>=1.8.0",
+    "langchain>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-huggingface>=0.1.0",
+    "langchain-mistralai>=0.2.0",
+    "langchain-text-splitters>=1.1.2",
+    "pypdf>=4.0.0",
+    "python-dotenv>=1.0.0",
+    "sentence-transformers>=2.7.0",
+    "streamlit>=1.32.0",
+]
